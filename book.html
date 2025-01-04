@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Eco-Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="book.html">Book Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup.html">Sign-Up</a></li>
+                <li><a href="login.html">Log-In</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="booking-banner">
+        <div>
+            <h2>Book Your Stay</h2>
+            <p>With Eco-Travel</p>
+            <form onSubmit="booknow(); return false;" class="booking-form-section">
+                <div class="booking-form">
+                    <label for="destination">Destination:</label>
+                    <input id="destination" type="text" placeholder="Enter destination"><span id="err1"></span>
+                </div>
+                <div class="booking-form">
+                    <label for="check-in">Check-in Date:</label>
+                    <input id="check-in" type="date"><span id="err2"></span>
+                </div>
+                <div class="booking-form">
+                    <label for="check-out">Check-out Date:</label>
+                    <input id="check-out" type="date"><span id="err3"></span>
+                </div>
+                <div class="booking-form">
+                    <label for="guests">Number of Guests:</label>
+                    <input id="guests" type="number" min="1" placeholder="Enter number of guests"><span id="err4"></span>
+                </div>
+            </form>
+            <div>
+                <button type="submit" class="booking-button">Search</button>
+            </div>
+        </div>
+    </section>
+    <main class="booking-main">
+        <section>
+            <div>
+                <h2>Ready to Plan Your Next Eco-Friendly Trip?</h2>
+                <p>Contact us today to start planning your sustainable vacation. Our team of experts is here to help you every step of the way.</p>
+                <a href="contact.html" class="button">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eco-Travel</p>
+    </footer>
+</body>
+</html>
