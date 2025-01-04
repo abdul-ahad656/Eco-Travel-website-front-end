@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Eco-Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="book.html">Book Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup.html">Sign-Up</a></li>
+                <li><a href="login.html">Log-In</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="background-image: url(L\ 1.jpeg); background-repeat: no-repeat; background-size: cover;">
+        <section class="signup">
+            <h2>Sign-up</h2>
+            <form onSubmit="signin(); return false;" class="generic-form">
+                <label for="username">First Name:</label>
+                <input id="firstname" type="text" name="firstname" placeholder="Enter First Name"><span id="err3"></span><br><br>
+                <label for="username">Last Name:</label>
+                <input id="lastname" type="text" name="lastname" placeholder="Enter Last Name"><span id="err4"></span><br><br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="Enter Email"><span id="err1"></span><br><br>
+                <label for="password">Password:</label>
+                <input id="pswd" type="password" placeholder="Enter Password"><span id="err2"></span><br><br>
+                <button type="submit">Sign up</button>
+                <p>Already have an account? <a href="login.html">Log-In</a></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eco-Travel</p>
+    </footer>
+</body>
+</html>

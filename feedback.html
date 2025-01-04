@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Eco-Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="book.html">Book Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup.html">Sign-Up</a></li>
+                <li><a href="login.html">Log-In</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="background-image: url(Si.jpeg); background-repeat: no-repeat; background-size: cover;">
+        <section class="feedback-section">
+            <h2>Customer Feedback</h2>
+            <hr>
+            <p>Your opinions are valuable to us. Please complete the following form to let us know how we're doing.</p>
+            <p>To arrange a conversation with a customer support agent, kindly refer to the contact details provided on our website.</p>
+            <hr>
+            <form>
+                <div class="feedback-form">
+                    <label>Please rank your whole experience:</label><br>
+                    <div class="rating">
+                        <input type="radio" id="rating1" name="rating" value="1">
+                        <label for="rating1">1</label>
+                        <input type="radio" id="rating2" name="rating" value="2">
+                        <label for="rating2">2</label>
+                        <input type="radio" id="rating3" name="rating" value="3">
+                        <label for="rating3">3</label>
+                        <input type="radio" id="rating4" name="rating" value="4">
+                        <label for="rating4">4</label>
+                        <input type="radio" id="rating5" name="rating" value="5">
+                        <label for="rating5">5</label>
+                        <input type="radio" id="rating6" name="rating" value="6">
+                        <label for="rating6">6</label>
+                        <input type="radio" id="rating7" name="rating" value="Exellent 7">
+                        <label for="rating7">7</label>
+                    </div>
+                </div>
+                <hr>
+                <div class="feedback-form">
+                    <label>About what precisely are you here to provide feedback?</label><br>
+                    <div class="feedback-type">
+                        <input type="radio" id="website" name="feedback_type" value="Website or mobile app">
+                        <label for="website">Website application</label>
+                        <input type="radio" id="other" name="feedback_type" value="Other">
+                        <label for="other">Other</label>
+                        <input type="text" id="otherText" name="other_text" placeholder="Please specify">
+                    </div>
+                </div>
+                <hr>
+                <div class="feedback-form">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="5" placeholder="Add your comments"></textarea>
+                </div>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eco-Travel</p>
+    </footer>
+</body>
+</html>
